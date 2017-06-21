@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AuthComponent } from './auth/auth.component';
+import { SharedComponent } from './shared/shared.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AuthComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
